@@ -1,0 +1,16 @@
+plugins {
+    id 'java'
+}
+
+group 'com.convexcreative.ndirenderer'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenLocal()
+}
+
+dependencies {
+    implementation 'com.walker:devolay:1.2.0'
+}
